@@ -1,0 +1,170 @@
+@font-face {
+    font-family: maison-neue-mono;
+    src: url(../font/maison-neue-mono.woff2)
+}
+@font-face {
+    font-family: Regular;
+    src: url(../font/rz-regular.woff2);
+  }
+
+body{
+    font-family: Regular,maison-neue-mono;
+}
+/* nav */
+header {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;   
+}
+
+
+header p {
+    font-size: 0.6em;
+    padding-left: 10%;
+   
+}
+
+nav ul{
+    list-style: none;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 95px;
+}
+
+ul li {
+    font-size: .9em; 
+    padding-right: 25px; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Überschrift */
+h1 {
+    font-size: 5.5rem;
+    padding-top: 35px;
+    margin-left: 10%;
+    width: 970px;
+}
+
+/* hero section */
+span {
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+main + section:nth-of-type(1) {
+    position: relative;
+}
+
+.hero img:nth-of-type(1) {
+    margin-top: -29%;
+    position: absolute;
+    width: 21vw;
+    z-index: -2;
+ } 
+.hero img:nth-of-type(2) {
+    margin-top: -20%;
+    position: absolute;
+    width: 19vw;
+    left: 510px;
+    z-index: -2;
+ }   
+ .hero img:nth-of-type(3) {
+    margin-top: -35%;
+    position: absolute;
+    width: 26vw;
+    height:90vh;
+    right: 0;
+    z-index: -2;
+ }  
+
+/* missionVission page */
+
+main section ul li {
+    list-style: none;
+    font-size:2em;
+    
+}
+
+.missionVission {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 550px;
+    margin-left: 17em;
+    margin-right: 8%;
+    margin-bottom: 250px;
+}
+
+.missionVission div{
+    /* margin-top: 10px 5%; */
+    margin-left:3%;
+}
+
+.missionVission h3{
+    padding-right: 40px;
+    font-size:1.2em; 
+    line-height: .5;
+}
+.missionVission p{
+padding-right: 40px;
+font-size: .9em; 
+
+   
+}
+.smallFont {
+    font-size:.7rem;
+}
+
+
+main section:nth-of-type(2)+ p{
+    text-align:center;
+    margin-bottom: 75px;
+}
+
+/* section with images */
+.second {
+    display: flex;
+    margin:160px 25%;
+}
+
+h2{
+    font-size: 2em;
+
+}
+
+/* Last Section & footer */
+.last {
+    background: #000;
+    color:white;
+    min-height: 60vh;
+    
+}
+.last h3 {
+    margin-left: 10%;
+    font-size: 4em;
+    font-weight: 100;
+    padding-top: 55px;
+    width: 40%;
+}
+
+.last a {
+    margin-left: 10%;
+    background: #000;
+    color:white;
+    border: 1px solid #fff;
+    padding: 0.5em 3em;
+
+}
+
+footer {
+    color: black;
+    padding: 15px 10%  ;
+    margin-left: 36%;
+    font-size: 0.6em;
+}
