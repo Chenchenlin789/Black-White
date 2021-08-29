@@ -8,7 +8,9 @@
   }
 
 body{
+    background: #000;
     font-family: Regular,maison-neue-mono;
+    color:white;
 }
 /* nav */
 header {
@@ -16,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid black;   
+    border-bottom: 1px solid white;   
 }
 
 
@@ -41,7 +43,7 @@ ul li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* Überschrift */
@@ -54,8 +56,8 @@ h1 {
 
 /* hero section */
 span {
-    color: white;
-    -webkit-text-stroke: 1px black;
+    color: black;
+    -webkit-text-stroke: 1px white;
 }
 
 main + section:nth-of-type(1) {
@@ -173,20 +175,20 @@ h2{
 
 
 .darkmood{
-    color:black;
+    color:white;
     margin: 43%;
 }
 .darkmood:hover{
-    color:white;
-    background: black;
+    color:black;
+    background: white;
     padding: .5%;
     margin: 43%;
 }
 
 /* Last Section & footer */
 .last {
-    background: #000;
-    color:white;
+    background: white;
+    color:black;
     min-height: 60vh;
     
 }
@@ -200,23 +202,22 @@ h2{
 
 .last a {
     margin-left: 10%;
-    background: #000;
-    color:white;
-    border: 1px solid #fff;
-    padding: 0.5em 3em;
-}
-
-.last a:hover {
-    margin-left: 10%;
     background: white;
     color:black;
-    border: 1px solid;
+    border: 1px solid black;
     padding: 0.5em 3em;
-
+}
+.last a:hover{
+    color:white;
+    background: black;
+    margin-left: 10%;
+    border: 1px solid black;
+    padding: 0.5em 3em;
+ 
 }
 
 footer {
-    color: black;
+    color: white;
     padding: 15px 10%  ;
     margin-left: 36%;
     font-size: 0.6em;
