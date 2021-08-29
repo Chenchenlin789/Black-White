@@ -68,6 +68,7 @@ main + section:nth-of-type(1) {
     width: 21vw;
     z-index: -2;
  } 
+
 .hero img:nth-of-type(2) {
     margin-top: -20%;
     position: absolute;
@@ -102,13 +103,12 @@ main section ul li {
 }
 
 .missionVission div{
-    /* margin-top: 10px 5%; */
     margin-left:3%;
 }
 
 .missionVission h3{
     padding-right: 40px;
-    font-size:1.2em; 
+    font-size: 1.2em; 
     line-height: .5;
 }
 .missionVission p{
@@ -130,12 +130,45 @@ main section:nth-of-type(2)+ p{
 /* section with images */
 .second {
     display: flex;
-    margin:160px 25%;
+    margin-top:150px;
+    margin-bottom:150px;
+}
+
+.second img { 
+    width: 650px;
+    height: 400px;  
+}
+.right article { 
+margin-left: 10%;
+}
+
+.right {
+    padding-top: 150px;
+    margin-left: 35%;
+ 
+}
+
+.right p{
+    text-align: right;
+}
+
+
+
+.second div{
+    margin-right: 7%;
+}
+
+.left { 
+    padding-top: 140px;
+    margin-left: 5%;
+}
+
+.left p {
+    text-align: left;
 }
 
 h2{
     font-size: 2em;
-
 }
 
 /* Last Section & footer */
